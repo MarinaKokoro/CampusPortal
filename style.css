@@ -1,8 +1,31 @@
-.registr{
-    width: 30%;
-    height: 40%;
-    margin-top: 10%;
-}
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap');
 .login{
     background-color:#5D5E6F;
+}
+.center-screen {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+min-height: 90vh;
+}
+.btn-primary{
+    background-color:#AEBD38;
+    border-color: #AEBD38;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:visited{
+    background-color: #9caa35;
+    border-color: #9caa35;
+}
+.Name{
+    text-align: center; 
+    vertical-align: middle;
+    color: #F1F1EF; 
+    font-size: 38px; 
+    font-weight: 400; 
+    text-transform: capitalize; 
+    word-wrap: break-word
 }
